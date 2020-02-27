@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3847797869072344982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179955027072278602}
+  - component: {fileID: 7640878286725460945}
+  m_Layer: 0
+  m_Name: MapGenSingleton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1179955027072278602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3847797869072344982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7640878286725460945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3847797869072344982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6294efabba4db79844e4699d8f0323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rockCount: 30
+  backgroundSpawnPoint: {x: 0, y: -20, z: 0}
+  backgroundDespawnPoint: {x: 0, y: 20, z: 0}
+  backgroundTubePrefab: {fileID: 4154923896344782879, guid: 23c05383910264f7fbc23d8be51e641f,
+    type: 3}
+  rockPrefabs:
+  - {fileID: 1070606791004336842, guid: 19fba55bf9f9a4e8f87856d987cb6908, type: 3}
+  - {fileID: 5053896656494704714, guid: f3691eb30ffcc4adf9531d0f97144398, type: 3}
+  - {fileID: 7138983769983864481, guid: 190989c280b4b4afdb552e64ccb6a3d8, type: 3}
+  - {fileID: 5932388779698984500, guid: f9bfc057084048c47a67c116080d1655, type: 3}
+  - {fileID: 1206041329537894520, guid: 25f41b8ec05728c4db53a15ad3dc4476, type: 3}
+  - {fileID: 5717211080705641279, guid: a4e2989283c077f4aa6ca745b1b867ae, type: 3}
+  backgroundTubeWidth: 2
+  rockCenterSpawnRad: 4
+  rockPusher: {fileID: 0}
